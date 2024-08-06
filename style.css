@@ -1,0 +1,156 @@
+body {
+  background-color: hsl(206.25, 47.06%, 93.33%);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+  background-color: white;
+  border-radius: 0.5rem;
+  max-width: 635px;
+  padding: 0;
+}
+
+.section {
+  padding: 2.5rem 2.5rem 2rem;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.cta-title {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.cta-subtitle {
+  color: hsl(71, 73%, 54%);
+}
+
+.cta-content {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+  font-size: 0.98rem;
+}
+
+.subscription-section {
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 0.5rem;
+}
+
+.subscription-title {
+  padding-bottom: 0.25rem;
+}
+
+.price {
+  display: table;
+  margin: 0;
+}
+
+.price-number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.price-frequency {
+  color: hsl(179, 45%, 75%);
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 0.8rem;
+}
+
+.subscription-content {
+  font-size: 0.98rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  box-shadow: 0rem 0.2rem 1rem rgba(64, 64, 64, 0.3);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: hsl(212, 21%, 14%);
+  box-shadow: none !important;
+}
+
+.why-us-section {
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(179, 47%, 52%);
+  border-bottom-right-radius: 0.5rem;
+}
+
+.why-us-title {
+  margin-bottom: 1rem;
+}
+
+.why-us-section ul {
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 0.85rem;
+  color: hsl(179, 45%, 85%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  .component {
+    max-width: 315px;
+  }
+
+  .section {
+    padding: 1.5rem 1.5rem 1.5rem;
+  }
+
+  .cta-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .cta-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-content {
+    line-height: 1.75;
+    font-size: 0.85rem;
+  }
+
+  .subscription-section {
+    border-bottom-left-radius: 0rem;
+  }
+
+  .why-us-section {
+    border-bottom-left-radius: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+}
