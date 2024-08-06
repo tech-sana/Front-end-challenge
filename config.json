@@ -1,0 +1,11 @@
+{
+  "name": "Single Price Grid Component",
+  "repo": "https://github.com/cekstedt/FEM-Single-Price-Grid-Component",
+  "challenger": "Frontend Mentor",
+  "challenge page": "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
+  "hosted": "https://incandescent-unicorn-df49e1.netlify.app/",
+  "original": false,
+  "personal": false,
+  "thumbnail": "thumbnail.png",
+  "technologies": ["html", "css", "bootstrap"]
+}
